@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SINTRANORTE — Sindicato das Empresas de Transporte de Cargas de Londrina</title>
+<title>Trabalhe conosco — SINTRANORTE</title>
+<meta name="description" content="Envie seu currículo para o SINTRANORTE, Sindicato das Empresas de Transporte de Cargas de Londrina.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -166,168 +167,79 @@
   .foot-brand{display:flex; align-items:center; gap:8px;}
   .foot-brand img{height:20px; width:auto;}
   .foot-name{font-family:'Big Shoulders Display',sans-serif; font-weight:800; font-size:15px; color:#fff;}
+
+  .page-hero .wrap{padding:64px 32px 68px;}
+  .page-hero h1{font-size:clamp(34px,5vw,52px);}
+  .cv-grid{display:grid; grid-template-columns:1.2fr 1fr; gap:56px; align-items:start;}
+  @media(max-width:820px){.cv-grid{grid-template-columns:1fr; gap:40px;}}
+  .cv-copy p{margin-top:16px; color:var(--ink-soft); font-size:16px;}
+  .cv-copy h2{font-size:clamp(28px,3.6vw,38px); color:var(--navy);}
+  .cv-list{list-style:none; margin-top:24px; display:flex; flex-direction:column; gap:14px;}
+  .cv-list li{display:flex; gap:12px; font-size:15px;}
+  .cv-list .bullet{width:8px; height:8px; border-radius:50%; background:var(--gold); margin-top:9px; flex-shrink:0;}
+  .cv-card{background:#fff; border:1px solid var(--line); border-radius:6px; padding:34px;}
+  .cv-card .lbl{font-size:12.5px; color:var(--gold-dark); font-weight:700; text-transform:uppercase; letter-spacing:1px;}
+  .cv-card h3{font-size:26px; color:var(--navy); margin-top:10px;}
+  .cv-card p{color:var(--ink-soft); font-size:14.5px; margin-top:10px;}
+  .cv-mail{display:block; font-weight:600; color:var(--navy); font-size:17px; margin-top:18px; word-break:break-all;}
+  .cv-card .btn{margin-top:22px; width:100%; text-align:center;}
+  .cv-note{font-size:13px; color:var(--ink-soft); margin-top:16px;}
 </style>
 </head>
 <body>
 
 <header>
   <div class="nav">
-    <a href="#top" class="brand"><img src="logo.png" alt=""><span class="brand-text"><span class="brand-name">SINTRANORTE</span><span class="brand-tag">SINDICATO DAS EMPRESAS DE TRANSPORTE DE CARGAS DE LONDRINA</span></span></a>
+    <a href="index.html#top" class="brand"><img src="logo.png" alt=""><span class="brand-text"><span class="brand-name">SINTRANORTE</span><span class="brand-tag">SINDICATO DAS EMPRESAS DE TRANSPORTE DE CARGAS DE LONDRINA</span></span></a>
     <nav class="links">
-      <a href="#sobre">Sobre</a>
-      <a href="#servicos">Serviços e parcerias</a>
-      <a href="#associe-se">Associe-se</a>
-      <a href="#passos">Como funciona</a>
-      <a href="#contato">Contato</a>
+      <a href="index.html#sobre">Sobre</a>
+      <a href="index.html#servicos">Serviços e parcerias</a>
+      <a href="index.html#associe-se">Associe-se</a>
+      <a href="index.html#passos">Como funciona</a>
+      <a href="index.html#contato">Contato</a>
       <a href="trabalhe-conosco.html">Trabalhe conosco</a>
     </nav>
-    <a href="#associe-se" class="nav-cta">Associe sua empresa</a>
+    <a href="index.html#associe-se" class="nav-cta">Associe sua empresa</a>
     <button class="menu-btn" onclick="document.getElementById('mobile-menu').classList.toggle('open')" aria-label="Abrir menu">☰</button>
   </div>
   <div id="mobile-menu">
-    <a href="#sobre">Sobre</a>
-    <a href="#servicos">Serviços e parcerias</a>
-    <a href="#associe-se">Associe-se</a>
-    <a href="#passos">Como funciona</a>
-    <a href="#contato">Contato</a>
+    <a href="index.html#sobre">Sobre</a>
+    <a href="index.html#servicos">Serviços e parcerias</a>
+    <a href="index.html#associe-se">Associe-se</a>
+    <a href="index.html#passos">Como funciona</a>
+    <a href="index.html#contato">Contato</a>
     <a href="trabalhe-conosco.html">Trabalhe conosco</a>
-    <a href="#associe-se" class="btn nav-cta">Associe sua empresa</a>
+    <a href="index.html#associe-se" class="btn nav-cta">Associe sua empresa</a>
   </div>
 </header>
 
-<section class="hero" id="top">
+<section class="hero page-hero" id="top">
   <div class="wrap">
-    <div class="kicker">LONDRINA · PARANÁ</div>
-    <h1>A força coletiva das transportadoras de cargas de Londrina.</h1>
-    <p class="lead">O SINTRANORTE representa e defende os interesses das empresas de transporte rodoviário de cargas da região, negociando condições melhores e reduzindo custos para quem move a economia na estrada.</p>
-    <div class="hero-actions">
-      <a href="#associe-se" class="btn btn-primary">Associe sua empresa</a>
-      <a href="#servicos" class="btn btn-outline">Ver parcerias em estruturação</a>
-    </div>
-    <div class="hero-stats">
-      <div class="stat"><div class="num">2026</div><div class="lbl">Ano de fundação do sindicato</div></div>
-      <div class="stat"><div class="num">5</div><div class="lbl">Frentes de parceria em estruturação</div></div>
-      <div class="stat"><div class="num">100%</div><div class="lbl">Foco em transporte de cargas</div></div>
-    </div>
+    <div class="kicker">TRABALHE CONOSCO</div>
+    <h1>Faça parte da equipe do SINTRANORTE.</h1>
+    <p class="lead">Envie seu currículo para o nosso RH. Ele fica no banco de talentos e é consultado quando surgir uma oportunidade.</p>
   </div>
 </section>
 
-<section id="sobre">
-  <div class="wrap sobre-grid">
-    <div class="sobre-copy">
-      <p class="quote">"Construir um sindicato forte, representativo e próximo das transportadoras — com benefícios que geram economia, segurança e regularidade."</p>
-      <p>O SINTRANORTE nasce para dar às transportadoras de cargas de Londrina uma representação patronal ativa. Nosso trabalho começa pela estruturação de parcerias estratégicas que tragam vantagem comercial real a cada empresa associada.</p>
-      <p>Usamos a força coletiva da categoria para negociar em nome de todos: melhores preços em combustível, suporte contábil especializado no setor, exames toxicológicos, gerenciamento de risco e as certificações exigidas para o transporte de produtos perigosos.</p>
-    </div>
-    <div class="facts">
-      <div class="fact"><span class="k">Razão social</span><span class="v">Sindicato das Empresas de Transporte de Cargas de Londrina</span></div>
-      <div class="fact"><span class="k">CNPJ</span><span class="v">68.536.373/0001-15</span></div>
-      <div class="fact"><span class="k">Natureza</span><span class="v">Entidade sindical patronal</span></div>
-      <div class="fact"><span class="k">Sede</span><span class="v">Londrina — PR</span></div>
-      <div class="fact"><span class="k">Situação</span><span class="v"><span class="status-pill"><span class="dot"></span>Ativa</span></span></div>
-    </div>
-  </div>
-</section>
-
-<section class="servicos" id="servicos">
-  <div class="wrap" style="padding-top:0; padding-bottom:0;">
-    <div class="section-head" style="padding-top:88px;">
-      <h2>Parcerias em estruturação</h2>
-      <p>Cinco frentes prioritárias, negociadas em bloco para gerar condições que uma transportadora sozinha dificilmente alcançaria.</p>
-    </div>
-  </div>
-  <div class="serv-grid">
-    <div class="serv-item">
-      <svg class="icn" viewBox="0 0 24 24" fill="none" stroke="#1E3A6B" stroke-width="1.6"><path d="M6 3h7v18H6z"/><path d="M13 8h2.5L18 10.5V17a1.5 1.5 0 0 1-1.5 1.5H16"/><path d="M9 7h1"/><rect x="16" y="12" width="2" height="2" rx="0.4"/></svg>
-      <h3>Postos de combustível</h3>
-      <p>Negociação de preços diferenciados, descontos e condições especiais de pagamento junto a redes de combustíveis.</p>
-    </div>
-    <div class="serv-item">
-      <svg class="icn" viewBox="0 0 24 24" fill="none" stroke="#1E3A6B" stroke-width="1.6"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M8 8h8M8 12h8M8 16h4"/></svg>
-      <h3>Contabilidade especializada</h3>
-      <p>Escritório contábil com domínio do transporte rodoviário de cargas, com condições diferenciadas para associados.</p>
-    </div>
-    <div class="serv-item">
-      <svg class="icn" viewBox="0 0 24 24" fill="none" stroke="#1E3A6B" stroke-width="1.6"><path d="M9 3h6v5l4 9a2 2 0 0 1-1.8 2.9H6.8A2 2 0 0 1 5 17l4-9z"/><path d="M9 3h6M8 13h8"/></svg>
-      <h3>Exames toxicológicos</h3>
-      <p>Parceria com clínicas e laboratórios para exames dos motoristas, com valores e condições especiais.</p>
-    </div>
-    <div class="serv-item">
-      <svg class="icn" viewBox="0 0 24 24" fill="none" stroke="#1E3A6B" stroke-width="1.6"><path d="M12 3l7 3v6c0 4.5-3 7.7-7 9-4-1.3-7-4.5-7-9V6z"/><path d="M9.5 12l1.8 1.8L15 10"/></svg>
-      <h3>Gerenciamento de risco</h3>
-      <p>Empresas especializadas em segurança da operação e no atendimento às exigências do setor de cargas.</p>
-    </div>
-    <div class="serv-item">
-      <svg class="icn" viewBox="0 0 24 24" fill="none" stroke="#1E3A6B" stroke-width="1.6"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17h.01"/></svg>
-      <h3>Produtos perigosos</h3>
-      <p>Certificações, inspeções, treinamentos e regularizações para empresas e veículos habilitados ao transporte de cargas perigosas.</p>
-    </div>
-    <div class="serv-item cta-item">
-      <h3>Sua transportadora aqui</h3>
-      <p>Fale com a diretoria para sugerir uma nova frente de parceria para a categoria.</p>
-      <a href="#contato" class="btn btn-outline" style="margin-top:auto; align-self:flex-start;">Falar com o sindicato</a>
-    </div>
-  </div>
-</section>
-
-<section class="roadmap" id="passos">
-  <div class="wrap">
-    <div class="section-head">
-      <h2>Como as parcerias são fechadas</h2>
-      <p>Cada frente segue o mesmo processo, para garantir que a condição negociada seja, de fato, vantajosa para quem está associado.</p>
-    </div>
-    <div class="steps">
-      <div class="step"><div class="n">01</div><div><h3>Mapeamento de parceiros</h3><p>Identificação dos possíveis fornecedores em cada área prioritária.</p></div></div>
-      <div class="step"><div class="n">02</div><div><h3>Coleta de propostas</h3><p>Solicitação de condições comerciais específicas para associados do SINTRANORTE.</p></div></div>
-      <div class="step"><div class="n">03</div><div><h3>Comparação</h3><p>Análise de valores, benefícios e condições entre os fornecedores interessados.</p></div></div>
-      <div class="step"><div class="n">04</div><div><h3>Negociação coletiva</h3><p>Uso da força do conjunto de associados para conquistar condições mais vantajosas.</p></div></div>
-      <div class="step"><div class="n">05</div><div><h3>Formalização</h3><p>Assinatura da parceria e divulgação dos benefícios aos associados.</p></div></div>
-    </div>
-  </div>
-</section>
-
-<section class="associe" id="associe-se">
-  <div class="wrap associe-grid">
-    <div>
-      <h2>Associe sua transportadora</h2>
-      <p>Quanto mais empresas associadas, maior o peso do SINTRANORTE nas negociações — e maior a economia que volta para cada transportadora.</p>
-      <ul class="benef-list">
-        <li><span class="bullet"></span>Representação patronal ativa junto a fornecedores e órgãos do setor.</li>
-        <li><span class="bullet"></span>Acesso às condições comerciais negociadas coletivamente.</li>
-        <li><span class="bullet"></span>Suporte para regularizações e exigências do transporte de cargas.</li>
-        <li><span class="bullet"></span>Participação nas decisões sobre novas parcerias e prioridades.</li>
+<section>
+  <div class="wrap cv-grid">
+    <div class="cv-copy">
+      <h2>Como enviar seu currículo</h2>
+      <p>O envio é feito por e-mail, direto para o setor de Recursos Humanos. Siga as orientações abaixo para facilitar a análise.</p>
+      <ul class="cv-list">
+        <li><span class="bullet"></span>Anexe o currículo em <strong>PDF</strong>.</li>
+        <li><span class="bullet"></span>No assunto, informe a área de interesse (ex.: "Currículo — Administrativo").</li>
+        <li><span class="bullet"></span>No corpo do e-mail, escreva seu nome completo, cidade e telefone para contato.</li>
+        <li><span class="bullet"></span>Se tiver uma vaga específica em mente, cite-a na mensagem.</li>
       </ul>
     </div>
-    <div class="card-cta">
-      <div class="lbl">Fale com a diretoria</div>
-      <h3>Quero associar minha empresa</h3>
-      <p>Envie os dados da sua transportadora e a diretoria retorna com os próximos passos para associação.</p>
-      <a href="mailto:comercial@sintranorte.com.br?subject=Quero associar minha transportadora" class="btn btn-primary">Enviar e-mail para o sindicato</a>
-    </div>
-  </div>
-</section>
-
-<section class="contato" id="contato">
-  <div class="wrap contato-grid">
-    <div>
-      <div class="section-head" style="margin-bottom:0;">
-        <h2>Contato</h2>
-        <p>Fale diretamente com o SINTRANORTE para dúvidas, propostas de parceria ou associação.</p>
-      </div>
-      <div class="info-list">
-        <div class="row"><div class="k">E-mail</div><div class="v">comercial@sintranorte.com.br</div></div>
-        <div class="row"><div class="k">Telefone</div><div class="v">(43) 9999-9999</div></div>
-        <div class="row"><div class="k">Endereço</div><div class="v">Av. Tiradentes, 501 — Sala 204, Edifício Twin Tower, Torre 2, Jardim Shangri-lá A, Londrina — PR</div></div>
-      </div>
-      <div class="social-row">
-        <a href="https://instagram.com/sintranorte" target="_blank" rel="noopener">Instagram</a>
-        <a href="mailto:comercial@sintranorte.com.br">E-mail</a>
-        <a href="trabalhe-conosco.html">Trabalhe conosco</a>
-      </div>
-    </div>
-    <div class="map-box">
-      <div class="addr">Londrina — PR</div>
-      <p>Av. Tiradentes, 501, Sala 204<br>Edifício Twin Tower — Torre 2<br>Jardim Shangri-la A — CEP 86.070-545</p>
+    <div class="cv-card">
+      <div class="lbl">Recursos Humanos</div>
+      <h3>Envie seu currículo</h3>
+      <p>Encaminhe seu currículo para o e-mail abaixo.</p>
+      <a class="cv-mail" href="mailto:rh@sintranorte.com.br?subject=Currículo — Trabalhe conosco">rh@sintranorte.com.br</a>
+      <a href="mailto:rh@sintranorte.com.br?subject=Currículo — Trabalhe conosco" class="btn btn-navy">Enviar currículo por e-mail</a>
+      <p class="cv-note">Os dados enviados são usados apenas para processos seletivos do SINTRANORTE, em conformidade com a LGPD.</p>
     </div>
   </div>
 </section>
